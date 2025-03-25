@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn-icons-png.flaticon.com/512/2721/2721626.png"
+    />
+    <title>Web Development Training</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      header {
+        background: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 16px 0;
+      }
+      nav {
+        background: #333;
+        color: white;
+        padding: 8px 0;
+        text-align: center;
+      }
+      nav a {
+        color: white;
+        margin: 0 16px;
+        text-decoration: none;
+      }
+      main {
+        flex: 1;
+        padding: 32px;
+        text-align: center;
+      }
+      footer {
+        background: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 16px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Website</h1>
+    </header>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/service.html">Services</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    <main>
+      <h2>Contact Us</h2>
+      <div style="max-width: 600px; margin: 0 auto; padding: 20px">
+        <p style="margin-bottom: 30px">
+          Get in touch with us! Fill out the form below or use our contact
+          information.
+        </p>
+
+        <div
+          style="
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 40px;
+          "
+        >
+          <div>
+            <h3>Contact Information</h3>
+            <p>📞 Phone: (123) 456-7890</p>
+            <p>📧 Email: info@example.com</p>
+            <p>📍 Address: 123 Main Street</p>
+          </div>
+        </div>
+
+        <form
+          style="
+            text-align: left;
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+          "
+        >
+          <div style="margin-bottom: 15px">
+            <label for="name">Name:</label><br />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              style="width: 100%; padding: 8px; margin-top: 5px"
+            />
+          </div>
+
+          <div style="margin-bottom: 15px">
+            <label for="email">Email:</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              style="width: 100%; padding: 8px; margin-top: 5px"
+            />
+          </div>
+
+          <div style="margin-bottom: 15px">
+            <label for="message">Message:</label><br />
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              style="width: 100%; padding: 8px; margin-top: 5px"
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            style="
+              background: #4caf50;
+              color: white;
+              padding: 10px 20px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+            "
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2025 My Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
